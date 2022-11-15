@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DevTeams.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DevTeams.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevTeams.Data.dll": {}
+        }
+      },
+      "DevTeams.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DevTeams.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevTeams.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevTeams.Repositories.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DevTeams.Data/1.0.0": {
+      "type": "project",
+      "path": "../DevTeams.Data/DevTeams.Data.csproj",
+      "msbuildProject": "../DevTeams.Data/DevTeams.Data.csproj"
+    },
+    "DevTeams.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../DevTeams.Repositories/DevTeams.Repositories.csproj",
+      "msbuildProject": "../DevTeams.Repositories/DevTeams.Repositories.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "DevTeams.Data >= 1.0.0",
+      "DevTeams.Repositories >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Neisha\\.nuget\\packages\\": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\ElevenFiftyAcademy\\ElevenFiftyAcademy160\\Assignments\\KomodoDevTeamsApp\\DevTeams.Data\\DevTeams.Data.csproj": {
+              "projectPath": "D:\\ElevenFiftyAcademy\\ElevenFiftyAcademy160\\Assignments\\KomodoDevTeamsApp\\DevTeams.Data\\DevTeams.Data.csproj"
+            },
+            "D:\\ElevenFiftyAcademy\\ElevenFiftyAcademy160\\Assignments\\KomodoDevTeamsApp\\DevTeams.Repositories\\DevTeams.Repositories.csproj": {
+              "projectPath": "D:\\ElevenFiftyAcademy\\ElevenFiftyAcademy160\\Assignments\\KomodoDevTeamsApp\\DevTeams.Repositories\\DevTeams.Repositories.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

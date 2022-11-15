@@ -1,0 +1,12 @@
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\bin\Debug\net6.0\DevTeams.Data.deps.json
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\bin\Debug\net6.0\DevTeams.Data.dll
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\bin\Debug\net6.0\DevTeams.Data.pdb
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\obj\Debug\net6.0\DevTeams.Data.csproj.AssemblyReference.cache
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\obj\Debug\net6.0\DevTeams.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\obj\Debug\net6.0\DevTeams.Data.AssemblyInfoInputs.cache
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\obj\Debug\net6.0\DevTeams.Data.AssemblyInfo.cs
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\obj\Debug\net6.0\DevTeams.Data.csproj.CoreCompileInputs.cache
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\obj\Debug\net6.0\DevTeams.Data.dll
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\obj\Debug\net6.0\refint\DevTeams.Data.dll
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\obj\Debug\net6.0\DevTeams.Data.pdb
+D:\ElevenFiftyAcademy\ElevenFiftyAcademy160\Assignments\KomodoDevTeamsApp\DevTeams.Data\obj\Debug\net6.0\ref\DevTeams.Data.dll

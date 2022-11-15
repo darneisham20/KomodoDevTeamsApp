@@ -1,15 +1,17 @@
 public class Developer
 {
-    public int ID { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
-    public string FullName
-    {
-        get
-        {
-            return $"{FirstName} {LastName}";
-        }
-    }
-    public bool HasPluralsight { get; set; }
+    public int DevId { get; set; }
+    public bool HasLicense { get; set; }
 
+    public Developer() { }
+
+    public Developer(string firstName, string lastName, int devId, bool hasLicense)
+    {
+        FirstName = firstName;
+        LastName = lastName;
+        DevId = devId;
+        HasLicense = hasLicense;
+    }
 }
